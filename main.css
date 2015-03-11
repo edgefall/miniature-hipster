@@ -8,7 +8,7 @@ html{
     min-height: 100%;
 }
 
-body {
+html, body {
 	box-sizing:border-box;
 }
 
@@ -177,10 +177,11 @@ body {
 	border-radius: 0px;
     }
     
-    #sliderbox{
+    #sliderBox{
 	/*width:100%;*/
 	/* height: 3920px; */
-	position: relative;
+	/*position: relative;*/
+	position:static; /* position static so jquery set left / right px get ignored */
     }
     
     
